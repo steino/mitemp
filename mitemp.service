@@ -1,0 +1,8 @@
+[Unit]
+Description=mitemp - fetch data from xiaomi mijia ble thermometer
+
+[Service]
+ExecStart=/usr/local/bin/mitemp
+
+[Install]
+WantedBy=multi-user.target
