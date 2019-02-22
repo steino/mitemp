@@ -1,0 +1,13 @@
+mqtt:
+   host: localhost
+   port: 1883
+   discovery: true
+   state_topic: homeassistant
+
+devices:
+   - stue:
+      address: 00:ff:00:ff:00:ff
+      name: "Device 1"
+   - bad:
+      address: ff:00:ff:00:ff:00
+      name: "Device 2"
